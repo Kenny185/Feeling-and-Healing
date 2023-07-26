@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins" , sans-serif;
+  list-style: none;
+}
+body{
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+}
+.sign-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.sign-btn button{
+   
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+}
+form{
+    background-color: #fff;
+    width: 350px;
+    margin: 8vh auto 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 17px;
+    
+}
+form h1{
+   
+    padding: 5px;
+    
+    text-align: center;
+    border-radius: 2px;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+    
+}
+.description{
+    flex-basis: 45%;
+    padding: 25px;
+    margin-right: 90px;
+}
+.description h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+.description p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+}
+.input-control input{
+    padding: 22px 15px 10px 0;
+    margin-top: 23px;
+    border: none;
+    border-bottom: 2px solid rgb(41, 57, 194);
+    background: transparent;
+    font-size: 15px;
+    
+}
+::placeholder{
+    font-size: 14px;
+    color: gray;
+}
+.input-control input:focus{
+    outline: none;
+}
+#password{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social{
+    margin-top: 160px;
+}
+.social p{
+    font-size: 35px;
+}
+.icons1 .fa{
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.login-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login-btn button{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.sign{
+    text-align: center;
+    font-size: 14px;
+}
+.sign a{
+    color: rgb(223, 7, 7);
+    text-decoration: none;
+}
+.forgot{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0  0 30px 0;
+   
+}
+.forgot a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons img{
+    width: 25px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.foot{
+    width: 100%;
+    text-align: center;
+    
+}
+.footer{
+    height: 130px;
+    margin-top:5px;
+    background-color: aliceblue;
+    padding-top: 30px;
+    
+}
+.footer p{
+    font-size: 14px;
+    padding:2px;
+}
+.icons .fa{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 15px;
+}.fa-facebook-square{
+    color: rgb(41, 57, 194);
+}
+.fa-twitter-square{
+    color: rgb(14, 109, 218);
+}
+.fa-linkedin-square{
+    color:rgb(41, 57, 194);
+}
+.fa-instagram{
+    color: rgb(172, 40, 23);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 10px 15px  rgba(0, 0, 0, 0.844);
+    background-color:beige ;
+    z-index: 10;
+    position: sticky;
+    left:0;
+    top: 0;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+#nav-bar ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#nav-bar li{
+    padding: 0 20px;
+    position: relative;
+}
+#nav-bar a{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(34, 4, 43)
+}
+.logo h1{
+    font-size: 30px;
+    text-decoration: double;
+    color: rgb(20, 3, 53);
+    font-style: italic;
+}
+/* highlight current page */
+
+#nav-bar a:hover,
+#nav-bar a.active{
+    color:rgba(23, 104, 225, 0.841);
+    transition: .5s ease;
+}
+#section1{
+    background-color: pink;
+}
+* a{
+    text-decoration: none;
+}
